@@ -12,7 +12,6 @@ bool sentToMeMode = false;
 var botClient = new TelegramBotClient(telegram_Token);
 using var cts = new CancellationTokenSource();
 const string rssChannel = "https://asterios.tm/index.php?cmd=rss&serv=-1&filter=keyboss&out=xml";
-// HashSet to store processed item URLs
 var processedItemDescription = new HashSet<string>();
 
 var receiverOptions = new ReceiverOptions
