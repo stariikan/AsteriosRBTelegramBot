@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\buyco\\source\\repos\\AsteriosRBbotbot\\AsteriosRBbotbot\\AsteriosRBbotbot.csproj": {}
+    "C:\\Games\\MyProject\\AsteriosRBTelegramBot\\AsteriosRBbotbot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\buyco\\source\\repos\\AsteriosRBbotbot\\AsteriosRBbotbot\\AsteriosRBbotbot.csproj": {
+    "C:\\Games\\MyProject\\AsteriosRBTelegramBot\\AsteriosRBbotbot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\buyco\\source\\repos\\AsteriosRBbotbot\\AsteriosRBbotbot\\AsteriosRBbotbot.csproj",
+        "projectUniqueName": "C:\\Games\\MyProject\\AsteriosRBTelegramBot\\AsteriosRBbotbot.csproj",
         "projectName": "AsteriosRBbotbot",
-        "projectPath": "C:\\Users\\buyco\\source\\repos\\AsteriosRBbotbot\\AsteriosRBbotbot\\AsteriosRBbotbot.csproj",
+        "projectPath": "C:\\Games\\MyProject\\AsteriosRBTelegramBot\\AsteriosRBbotbot.csproj",
         "packagesPath": "C:\\Users\\buyco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\buyco\\source\\repos\\AsteriosRBbotbot\\AsteriosRBbotbot\\obj\\",
+        "outputPath": "C:\\Games\\MyProject\\AsteriosRBTelegramBot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\buyco\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,12 +72,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[6.0.16, 6.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "ubuntu.20.04-x64": {
+          "#import": []
         }
       }
     }

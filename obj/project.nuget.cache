@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tC4NFhFYPG26iJ/cJ27ZFh+0jixyLx2m36cBRR5jXBVcQTawPsBJETxXp1NXhyx8u4tEM8rrvseJecJe5uKW6g==",
+  "dgSpecHash": "kbZPxIDAnEMtC2qbKVXL+5J9moGscWfiUtarX5Zhn5WJ6nRr/FQV0DkRhqIlYjdvd1Wvy5Svh2dg/lrE7ewfww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\buyco\\source\\repos\\AsteriosRBbotbot\\AsteriosRBbotbot\\AsteriosRBbotbot.csproj",
+  "projectFilePath": "C:\\Games\\MyProject\\AsteriosRBTelegramBot\\AsteriosRBbotbot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\buyco\\.nuget\\packages\\headless\\1.1.4-beta\\headless.1.1.4-beta.nupkg.sha512",
     "C:\\Users\\buyco\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
@@ -44,7 +44,10 @@
     "C:\\Users\\buyco\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
     "C:\\Users\\buyco\\.nuget\\packages\\telegram.bot\\19.0.0\\telegram.bot.19.0.0.nupkg.sha512",
     "C:\\Users\\buyco\\.nuget\\packages\\telegram.bots\\5.9.0\\telegram.bots.5.9.0.nupkg.sha512",
-    "C:\\Users\\buyco\\.nuget\\packages\\telegram.bots.extensions.polling\\5.9.0\\telegram.bots.extensions.polling.5.9.0.nupkg.sha512"
+    "C:\\Users\\buyco\\.nuget\\packages\\telegram.bots.extensions.polling\\5.9.0\\telegram.bots.extensions.polling.5.9.0.nupkg.sha512",
+    "C:\\Users\\buyco\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\6.0.16\\microsoft.netcore.app.runtime.linux-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\buyco\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\6.0.16\\microsoft.aspnetcore.app.runtime.linux-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\buyco\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\6.0.16\\microsoft.netcore.app.host.linux-x64.6.0.16.nupkg.sha512"
   ],
   "logs": [
     {
@@ -54,7 +57,8 @@
       "message": "Headless 1.1.4-beta не задает включенную нижнюю границу для зависимости Microsoft.Net.Http. Использовано наилучшее приближенное соответствие Microsoft.Net.Http 2.0.20505.",
       "libraryId": "Microsoft.Net.Http",
       "targetGraphs": [
-        "net6.0"
+        "net6.0",
+        "net6.0/ubuntu.20.04-x64"
       ]
     },
     {
@@ -64,7 +68,8 @@
       "message": "Headless 1.1.4-beta не задает включенную нижнюю границу для зависимости SgmlReader. Использовано наилучшее приближенное соответствие SgmlReader 1.8.8.",
       "libraryId": "SgmlReader",
       "targetGraphs": [
-        "net6.0"
+        "net6.0",
+        "net6.0/ubuntu.20.04-x64"
       ]
     },
     {
